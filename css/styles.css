@@ -1,0 +1,76 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;  /* 1rem = 10px */
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.6rem;
+}
+
+h1 {
+    font-size: 4.8rem;
+}
+
+h2 {
+    font-size: 3.6rem;
+}
+
+img {
+    max-width: 85%;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+.contenedor {
+    width: min(80%, 120rem);
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #1f2937;
+    height: 50rem;
+    color: white;
+
+}
+
+.header-nav ul {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    height: 8rem;
+    gap: 2rem;
+    color: white;
+}
+
+.logo {
+    margin-right: auto;
+}
+
+.header-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 6rem;
+}
+
+.header-cont-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
