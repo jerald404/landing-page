@@ -39,7 +39,7 @@ a {
 
 button {
     background-color: #3883f6;
-    color: wheat;
+    color: white;
     padding: 1.5rem;
     font-weight: 700;
     border-radius: 15%;
@@ -85,6 +85,10 @@ button {
     border-radius: 30%;
 }
 
+.main {
+    margin: 10rem auto;
+}
+
 .main-img {
     width: 20rem;
     height: 20rem;
@@ -94,4 +98,54 @@ button {
 
 .contenido {
     display: flex;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    height: 40rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.quote-cont {
+    font-size: 3.6rem;
+    font-style: italic;
+}
+
+.quote-cont-autor {
+    font-size: 2rem;
+    text-align: end;
+    font-weight: 700;
+}
+
+.sign-up {
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-between;
+    margin: 10rem auto;
+    padding: 3rem;
+    color: white;
+}
+
+.sign-up-title {
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.sign-up-button {
+    width: 11rem;
+    height: 6rem;
+    margin: auto;
+    border: 2px solid white;
+}
+
+.footer {
+    margin-top: 8rem;
+    text-align: center;
+    background-color: #1f2937;
+    padding: 5rem;
+    color: white;
 }
