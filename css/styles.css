@@ -18,6 +18,7 @@ h1 {
 
 h2 {
     font-size: 3.6rem;
+    text-align: center;
 }
 
 img {
@@ -34,6 +35,14 @@ a {
     padding: 0;
     margin: 0;
     color: white;
+}
+
+button {
+    background-color: #3883f6;
+    color: wheat;
+    padding: 1.5rem;
+    font-weight: 700;
+    border-radius: 15%;
 }
 
 .contenedor {
@@ -66,11 +75,23 @@ a {
     justify-content: center;
     align-items: center;
     gap: 3rem;
-    margin-top: 6rem;
+    margin-top: 5rem;
 }
 
 .header-cont-img {
+    width: 55rem;
+    height: 27rem;
+    border: 1px solid white;
+    border-radius: 30%;
+}
+
+.main-img {
+    width: 20rem;
+    height: 20rem;
+    border: 1px solid black;
+    border-radius: 20%;
+}
+
+.contenido {
     display: flex;
-    justify-content: center;
-    align-items: center;
 }
